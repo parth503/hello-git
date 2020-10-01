@@ -7,4 +7,7 @@ y= x**2
 plt.figure()
 plt.plot(x, y)
 
+plt.xlabel('hours')
+plt.ylabel('widgets')
+
 plt.savefig('myfig.png')
